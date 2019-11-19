@@ -83,6 +83,10 @@ The dependencies are defined in `Package.swift`, in particular the 4d-for-ios sd
  |[4d-for-ios/4d-for-ios-form-detail-SimpleList](https://github.com/4d-for-ios/4d-for-ios-form-detail-SimpleList) | [![4d-for-ios-form-detail-SimpleList](https://github.com/4d-for-ios/4d-for-ios-form-detail-SimpleList/workflows/check/badge.svg)](https://github.com/4d-for-ios/4d-for-ios-form-detail-SimpleList/actions?workflow=check)|
   |[4d-for-ios/4d-for-ios-form-detail-ClientDetail](https://github.com/4d-for-ios/4d-for-ios-form-detail-ClientDetail) | [![4d-for-ios-form-detail-ClientDetail](https://github.com/4d-for-ios/4d-for-ios-form-detail-ClientDetail/workflows/check/badge.svg)](https://github.com/4d-for-ios/4d-for-ios-form-detail-ClientDetail/actions?workflow=check)|
   |[4d-for-ios/4d-for-ios-form-detail-InvoiceDetail](https://github.com/4d-for-ios/4d-for-ios-form-detail-InvoiceDetail) | [![4d-for-ios-form-detail-InvoiceDetail](https://github.com/4d-for-ios/4d-for-ios-form-detail-InvoiceDetail/workflows/check/badge.svg)](https://github.com/4d-for-ios/4d-for-ios-form-detail-InvoiceDetail/actions?workflow=check)|
+## Form Login
+ | Repository | Workflow |
+ | ---------- | -------- |
+   |[4d-for-ios/4d-for-ios-form-login-SignInWithApple](https://github.com/4d-for-ios/4d-for-ios-form-login-SignInWithApple) | [![4d-for-ios-form-login-SignInWithApple](https://github.com/4d-for-ios/4d-for-ios-form-login-SignInWithApple/workflows/check/badge.svg)](https://github.com/4d-for-ios/4d-for-ios-form-login-SignInWithApple/actions?workflow=check)|
 ## Formatter
 
  | Repository | Workflow |
