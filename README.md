@@ -1,8 +1,8 @@
 # check-workflow
 
-This project describes the [continous integration](https://en.wikipedia.org/wiki/Continuous_integration) and [delivery](https://en.wikipedia.org/wiki/Continuous_delivery) processes using [github workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow) on `forms` and `formatters`.
+This project describes the [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) and [delivery](https://en.wikipedia.org/wiki/Continuous_delivery) processes using [github workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow) on `forms` and `formatters`.
 
-These processes aim to improve the quality and to be timesaving.
+These processes provide quality and timesaving advantages in software deployment.
 
 ## How to check your forms?
 
@@ -73,13 +73,13 @@ curl -fsSL https://raw.githubusercontent.com/4d-for-ios/check-workflow/master/fo
 
 ## Result board
 
-[Badge(image)](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow#adding-a-workflow-status-badge-to-your-repository) could be added to project readme or in any markdown or html files to display continuous integration results.
+[Badge(image)](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow#adding-a-workflow-status-badge-to-your-repository) could be added to the project readme file or in any markdown or html files to display continuous integration results.
 
 ```markdown
 [![:repo](https://github.com/:user/:repo/workflows/check/badge.svg)](https://github.com/:user/:repo/actions?workflow=check)
 ```
 
-Badge to release with download could also be added using service like https://shields.io/
+A badge with release version and download link could also be added using a service like https://shields.io/
 
 ```markdown
 [![release](https://img.shields.io/github/v/release/:user/:repo)](https://github.com/:user/:repo/releases/latest/download/:repo.zip)|
