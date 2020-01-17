@@ -1,6 +1,6 @@
 # check-workflow
 
-This project describeS the [continous integration](https://en.wikipedia.org/wiki/Continuous_integration) and [delivery](https://en.wikipedia.org/wiki/Continuous_delivery) processes using [github workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow) on `forms` and `formatters`.
+This project describes the [continous integration](https://en.wikipedia.org/wiki/Continuous_integration) and [delivery](https://en.wikipedia.org/wiki/Continuous_delivery) processes using [github workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow) on `forms` and `formatters`.
 
 These processes aim to improve the quality and to be timesaving.
 
