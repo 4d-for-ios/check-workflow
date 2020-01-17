@@ -1,8 +1,8 @@
 # check-workflow
 
-This project describe the [continous integration](https://en.wikipedia.org/wiki/Continuous_integration) and [delivery](https://en.wikipedia.org/wiki/Continuous_delivery) processes using [github workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow) on `forms` and `formatters`.
+This project describeS the [continous integration](https://en.wikipedia.org/wiki/Continuous_integration) and [delivery](https://en.wikipedia.org/wiki/Continuous_delivery) processes using [github workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow) on `forms` and `formatters`.
 
-These processes aim to improve the quality and to reduce the time taken to deliver it.
+These processes aim to improve the quality and to be timesaving.
 
 ## How to check your forms?
 
@@ -18,28 +18,28 @@ curl -fsSL https://raw.githubusercontent.com/4d-for-ios/check-workflow/master/fo
 
 ### ✅ [Check Workflow](form/workflows/check.yml)
 
-To ensure code quality two types of tools are executed on code: linter to lint and compiler to build.
+To ensure code quality, two types of tools are executed on code: linter to lint and compiler to build.
 
 #### 👮‍♂️lint
 
-[lint or linters](https://en.wikipedia.org/wiki/Lint_(software)) are tools to check source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
+[lint or linters](https://en.wikipedia.org/wiki/Lint_(software)) are tools that can be used to check source code and flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
 ##### code: swiftlint
 
-We use [swiftlint](https://github.com/realm/SwiftLint) to lint source code
+We use [swiftlint](https://github.com/realm/SwiftLint) to lint source code.
 
-A configuration file could be integrated [.swiftlint.yml](form/files/.swiftlint.yml) in form root folder to specify where the source file are.
+A configuration file could be integrated [.swiftlint.yml](form/files/.swiftlint.yml) in the form root folder to specify the location of the source file.
 
-💡 Then just run `swiftlint` at project root to check yourself.
+💡 Then, simply run `swiftlint` at project root to check by yourself.
 
 
 ##### storyboard: iblinter
 
 We use [iblinter](https://github.com/IBDecodable/IBLinter) to lint storyboards
 
-A configuration file could be integrated [.iblinter.yml](form/files/.iblinter.yml) in form root folder specify where the source file are.
+A configuration file could be integrated [.iblinter.yml](form/files/.iblinter.yml) in the form root folder to specify the location of the source file.
 
-💡 Then just run `iblinter` at project root to check yourself.
+💡 Then, simply run `iblinter` at project root to check by yourself.
 
 ##### manifest.json: jsonlint
 
@@ -47,21 +47,21 @@ We use [jsonlint](https://github.com/zaach/jsonlint) but any JSON linter can do 
 
 #### 🏗️ build
 
-Build step use `swift build` on iOS to check if there is no build errors in code.
+Build step uses `swift build` on iOS to make sure that there are no build errors in the code.
 
-The dependencies are defined in [`Package.swift`](form/files/Package.swift), in particular the 4d-for-ios sdk ([mock](https://github.com/4d-for-ios/QMobileUI))
+The dependencies are defined in [`Package.swift`](form/files/Package.swift), in particular the 4d-for-ios sdk ([mock](https://github.com/4d-for-ios/QMobileUI)).
 
 💡 You must be connected on github to read the check log.
 
 ### 🚀 [Release Workflow](form/workflows/release.yml)
 
-This workflow help you to provide bundled archive of your extension to share it.
+This workflow helps you provide a bundled archive of your extension, so that you can share it.
 
-When you create a new [release on github](https://help.github.com/en/github/administering-a-repository/creating-releases) the bundled archive is  automatically attached to the release.
+When you create a new [release on github](https://help.github.com/en/github/administering-a-repository/creating-releases), the bundled archive is  automatically attached to the release.
 
 ## How to check your formatters?
 
-* [Github workflow files](formatter/workflows/) must be added under `.github/workflows` folder into your form root folder.
+* [Github workflow files](formatter/workflows/) must be added under the `.github/workflows` folder into your form root folder.
 
 💡 Open the terminal, go to your formatter root folder and launch this command line to automatically download it.
 
@@ -73,7 +73,7 @@ curl -fsSL https://raw.githubusercontent.com/4d-for-ios/check-workflow/master/fo
 
 ## Result board
 
-[Badge(image)](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow#adding-a-workflow-status-badge-to-your-repository) could be added to project readme or in any markdown or html files to display continous integration result.
+[Badge(image)](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow#adding-a-workflow-status-badge-to-your-repository) could be added to project readme or in any markdown or html files to display continuous integration results.
 
 ```markdown
 [![:repo](https://github.com/:user/:repo/workflows/check/badge.svg)](https://github.com/:user/:repo/actions?workflow=check)
@@ -85,7 +85,7 @@ Badge to release with download could also be added using service like https://sh
 [![release](https://img.shields.io/github/v/release/:user/:repo)](https://github.com/:user/:repo/releases/latest/download/:repo.zip)|
 ```
 
-You could find an automatically generated list in [topic-workflow](https://github.com/4d-for-ios/topic-workflow/blob/master/list.md)
+You can find an automatically-generated list in [topic-workflow](https://github.com/4d-for-ios/topic-workflow/blob/master/list.md)
 
 ### Form List
 
